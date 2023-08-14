@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Practico_1_ProgMovil_II"
+        tools:targetApi="31">
+        <activity
+            android:name=".Ejercicio_25.Ejercicio_25"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_23.Ejercicio_23"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_21.Ejercicio_21"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_19.Ejercicio_19"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_17.Ejercicio_17"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_3.Ejercicio_3"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_9.Ejercicio_9"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_13.Ejercicio_13"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_7.Ejercicio_7"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_5.Ejercicio_5_2da"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_5.Ejercicio_5"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicio_1.Ejercicio_1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
